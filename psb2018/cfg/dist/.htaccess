@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^login$ login.php [L]
+RewriteRule ^reg-user$ aksi_reg_user.php [L]
+RewriteRule ^verifikasi-user$ log_verifikasi.php [L]
+RewriteRule ^sign-out$ sign_out.php [L]
+RewriteRule ^getpass$ get_password.php [L]
+
+Options All -Indexes
+</IfModule>

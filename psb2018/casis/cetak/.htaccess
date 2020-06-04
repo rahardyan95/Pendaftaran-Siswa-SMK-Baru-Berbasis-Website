@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^biodata$ f_biodata.php [L]
+RewriteRule ^kpusm$ f_kpusm.php [L]
+
+Options All -Indexes
+</IfModule>
